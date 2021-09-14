@@ -1,0 +1,38 @@
+#item{
+    cursor: pointer;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#img-caption{
+    bottom: 30px ;
+    left: 10%;
+    background-color: white  ;
+    width: 80%;
+    padding: 10px;
+}
+
+#view{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 999999;
+    display: none;
+}
+#content{
+    width: 40%;
+    height: 500px;
+    background-image: url(../images/Image2.jpeg);
+    background-size: 100% 100%;
+    
+}
+#content i{
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+#close{
+    top: 0;
+    right: 0;
+}
